@@ -1,5 +1,8 @@
 
 
+
+[Chinese README_CN](https://github.com/muxiaobai/CodeUpdate/blob/master/bin/README_CN.md)
+[download URL](https://github.com/muxiaobai/CodeUpdate/blob/master/bin/Code.zip)
 ------------------------------------------------------------------------------------------------------------------------------------
 
 # Update Tool User Guide
