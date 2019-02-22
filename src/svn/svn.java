@@ -74,10 +74,6 @@ public class svn {
 
     public static void  main(String[] args) throws Exception{  
         Map tMap = new HashMap<String, Object>();
-        tMap.put("svn_username", "zhangpengfei");
-        tMap.put("svn_password", "zpf1234");
-        tMap.put("svn_url", "http://svn.xd-info.com:9432/svn/FORP_DEV2018");
-        tMap.put("svn_path", "/金元证券/003软件开发/04编码/web-admin");
         svn svn = new svn(tMap.get("svn_username").toString(), tMap.get("svn_password").toString(), tMap.get("svn_url").toString()+tMap.get("svn_path").toString());
         try {
             Map map = new HashMap<String,Object>();
