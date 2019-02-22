@@ -72,3 +72,9 @@ java ctrl.FileSearch jy_zq
 编译路径不能包含中文，配置文件中使用反斜杠/
 
 run : java ctrl.FileSearch jy_zq
+
+------------------------------------------------------------------------------------------------------------
+<div align="center">
+<img src="https://github.com/muxiaobai/muxiaobai.github.io/blob/master/img/alipay.jpg" height="180" width="150" >
+<img src="https://github.com/muxiaobai/muxiaobai.github.io/blob/master/img/wechatpay.png" height="180" width="150" >
+ </div>
