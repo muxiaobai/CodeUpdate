@@ -83,4 +83,7 @@ run : java ctrl.FileSearch jy_zq_svn
 The compilation path cannot contain Chinese, and the backslash is used in the configuration file.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-
+<div align="center">
+<img src="https://github.com/muxiaobai/muxiaobai.github.io/blob/master/img/alipay.jpg" height="180" width="150" >
+<img src="https://github.com/muxiaobai/muxiaobai.github.io/blob/master/img/wechatpay.png" height="180" width="150" >
+ </div>
