@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root> 	
+<!--
+	<item>
+		<base_dir>{root}/update/new/{ver}_{time}/tysp/ROOT</base_dir>
+		<search_dir>D:/workspace_new/TyspV2.0DevelopWithJspJava/src</search_dir>
+		<search_filter>*.java</search_filter>
+		<from_dir>D:/workspace_new/TyspV2.0DevelopWithJspJava/WebRoot/WEB-INF/classes</from_dir>
+		<to_dir>WEB-INF/classes</to_dir>
+		<roles>
+			<role>
+				<rf>.java</rf>
+				<rt>.class</rt>
+			</role>
+		</roles>
+	</item>	   -->
+	<item>
+        <!-- svn dir -->
+		
+	 
+        <type>svn</type>
+        <svn_username>{username}</svn_username>
+        <svn_password>{password}</svn_password>
+        <svn_url>http://host:port/svn/2018</svn_url>
+        <svn_path>//web-admin</svn_path>
+        <svn_time>2019-02-21 14:00:00</svn_time>  
+        <java_path>/src</java_path>
+        <web_path>/web</web_path>  
+        
+        <!-- change search_dir and from_dir ,use youself path that  is tomcat or build runing home -->
+        <base_dir>{root}/update/jy_zq/{ver}_{time}/ROOT</base_dir>
+        <search_dir>D:/tomcat-8.5.32-8080/webapps/ROOT</search_dir>
+        <search_filter>*.jsp||*.html||*.htm||*.swf||*.xml||*.css||*.js||*.xsl||*.png||*.jpg||*.gif||*.class</search_filter>
+        <from_dir>D:/tomcat-8.5.32-8080/webapps/ROOT</from_dir>
+        <to_dir></to_dir>
+	</item>
+</root>

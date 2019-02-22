@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root> 	
+	<item>
+        <type>dir</type>
+        <svn_username></svn_username>
+        <svn_password></svn_password>
+        <svn_url></svn_url>
+        <svn_path></svn_path>
+        <svn_time></svn_time>  
+        <java_path></java_path>
+        <web_path></web_path>  
+<!-- change search_dir and from_dir ,use youself path that  is tomcat or build runing home -->
+		<base_dir>{root}/update/jy_zq_demo/{ver}_{time}/ROOT</base_dir>
+		<search_dir>D:/tomcat-8.5.32-8095/webapps/ROOT</search_dir>
+		<search_filter>*.jsp||*.html||*.htm||*.swf||*.xml||*.css||*.js||*.xsl||*.png||*.jpg||*.gif||*.class</search_filter>
+		<from_dir>D:/tomcat-8.5.32-8095/webapps/ROOT</from_dir>
+		<to_dir></to_dir>
+		
+	</item>
+</root>

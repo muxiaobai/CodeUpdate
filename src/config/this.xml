@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<item>
+	    <!-- svn dir -->
+        
+        <type>svn</type>
+        <svn_username>{username}</svn_username>
+        <svn_password>{password}</svn_password>
+        <svn_url>http://host:port/svn/2018</svn_url>
+        <svn_path>//web-admin</svn_path>
+        <svn_time>2019-02-21 14:00:00</svn_time>  
+        <java_path>/src</java_path>
+        <web_path>/web</web_path>  
+        
+		<base_dir>{root}/update/this/{ver}_{time}/ctrl</base_dir>
+		<search_dir>{root}/ctrl/</search_dir>
+		<search_filter>*.class||*.properties||*.bat||*.xml</search_filter>
+		<from_dir>{root}/ctrl/</from_dir>
+		<to_dir></to_dir>
+	</item>
+</root>

@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: ./lib/libsvnkit-1.9.3.jar
+Main-Class: ctrl.FileSearch jy_zq
